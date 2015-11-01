@@ -13,4 +13,13 @@
             expect(model.save).toThrow();
       });
 
+      it('Create product trigger server method', function(){
+            spyOn(Products, 'insert');
+            spyOn(Meteor, "call");
+            var model = ProductViewModel.create(null, 'name', 10);
+            model.save();
+            expect(Meteor.call).toHaveBeenCalled();
+            // expect(Products.insert).toHaveBeenCalled();  why this test faild?
+      })
+
     });
