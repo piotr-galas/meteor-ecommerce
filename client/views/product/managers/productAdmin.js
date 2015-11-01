@@ -7,8 +7,8 @@ Template.productAdmin.helpers({
 Template.productAdmin.events({
     'submit form': function(event){
         event.preventDefault();
-        this.name = 'samp';
-        this.price = 23;
+        this.name = event.target.productName.value;
+        this.price = event.target.productPrice.value;
         this.save(); 
     }
 });
