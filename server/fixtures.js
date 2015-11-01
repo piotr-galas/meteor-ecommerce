@@ -1,6 +1,5 @@
 'use strict'
 if (Products.find().count() === 0) {
-
   Products.insert({
     name: 'misek',
     price: 23,
