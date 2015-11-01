@@ -1,4 +1,5 @@
 <template name='product'>
-       <h1>Title: {{name}}</h1>
-        <p>Price: {{price}}</p>
+  {{#with productModel }}
+    <p>{{ name }} -- {{ price }}</p>
+  {{/with}}
 </template>
