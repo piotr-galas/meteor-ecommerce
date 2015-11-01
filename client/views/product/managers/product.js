@@ -3,3 +3,4 @@ Template.product.helpers({
         return ProductViewModel.create(this._id, this.name, this.price);
     }
 });
+

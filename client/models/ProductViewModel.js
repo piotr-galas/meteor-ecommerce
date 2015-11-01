@@ -19,7 +19,7 @@ ProductViewModel = {
         if(this._id){
             // trigger update from server function
         }else{
-            // trigger create from server function
+            Meteor.call('productCreate', this.name, this.price);
         }
     }
 };
