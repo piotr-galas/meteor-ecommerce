@@ -1,9 +1,24 @@
 <template name="layout">
 
 <div class='header'>
-    <div class='header-login'>
-        {{> loginButtons}}
+    <div class='header-bar'>
+        <div class='header-bar-icons'>
+            <i class="fa fa-pied-piper-alt fa-2x"></i>
+            &nbsp;
+            <i class="fa fa-odnoklassniki fa-2x" ></i>
+            &nbsp;
+            <i class="fa fa-slideshare fa-2x"></i>
+            &nbsp;
+            <i class="fa fa-weixin fa-2x"></i>
+        </div>
+        <div class="header-bar-message">
+            Welkome in awesome metoer app
+        </div>
+        <div class='header-bar-login'>
+            {{> loginButtons}}
+        </div>
     </div>
+
 </div>
 <!--   <header>
     {{>header}}

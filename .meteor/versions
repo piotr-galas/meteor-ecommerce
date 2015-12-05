@@ -76,6 +76,7 @@ reactive-var@1.0.6
 reload@1.1.4
 retry@1.0.4
 reywood:bootstrap3-sass@3.3.5_2
+reywood:font-awesome-sass@4.4.0_1
 routepolicy@1.0.6
 sanjo:jasmine@0.20.2
 sanjo:karma@3.0.2
