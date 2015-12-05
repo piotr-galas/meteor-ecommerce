@@ -24,3 +24,5 @@ velocity:console-reporter
 accounts-ui
 iron:router
 accounts-password
+fourseven:scss
+reywood:bootstrap3-sass
