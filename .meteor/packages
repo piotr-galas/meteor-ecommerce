@@ -21,3 +21,6 @@ insecure                # Allow all DB writes from clients (for prototyping)
 sanjo:jasmine
 velocity:html-reporter
 velocity:console-reporter
+accounts-ui
+iron:router
+accounts-password
