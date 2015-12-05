@@ -1,6 +1,6 @@
 Template.productAdmin.helpers({
     productModel: function(){
-        return ProductViewModel.create();
+         return new ProductViewModel(this._id, this.name, this.price);
     }
 });
 
