@@ -17,8 +17,22 @@
 .header-bar-message{
     font-size: 20px;
     font-family: 'Fira Mono';
+    color:#000;
     @include make-xs-column(6);
 }
 .header-bar-login{
      @include make-xs-column(3);
+}
+
+
+// lile hacks - override default style.In furure should be rewritten
+.header-bar-login #login-buttons{
+    margin-top: 3px;
+}
+
+.header-bar-login #login-buttons a{
+    font-size: 20px;
+    font-family: 'Fira Mono';
+    color:#000;
+    padding-left: 30px;
 }

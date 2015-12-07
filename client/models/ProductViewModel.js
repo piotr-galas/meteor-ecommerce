@@ -1,18 +1,13 @@
 ProductViewModel  = class ProductViewModel{
-    constructor(id, name, price){
-        this._id = id;
-        this.name = name;
-        this.price = price;
-        return this;
-    }
-
-    create(id, name, price){
-        return Object.create(ProductViewModel).init(id, name, price);
+    constructor(product){
+        this._id = product.id;
+        this.name = product.name;
+        this.price = product.price;
     }
 
     save(){
         if(!this.name){
-            throw 'product name cant be empty';
+            throw 'product name can\'t be empty';
         }
         
         if(this._id){
