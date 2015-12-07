@@ -27,3 +27,5 @@ accounts-password
 fourseven:scss
 reywood:bootstrap3-sass
 reywood:font-awesome-sass
+accounts-facebook
+accounts-google
